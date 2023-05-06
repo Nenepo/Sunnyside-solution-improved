@@ -98,12 +98,13 @@ img{
 
 
 .header{
-  background-image:  url(../Sunnyside/images/desktop/image-header.jpg) ;
+  background-image:  url(../) ;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   padding: 0 20px;
-  
+  /* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
+  background-color: #000;
 }
 .hero-overlay{
 text-align: center;
@@ -280,12 +281,12 @@ padding: 2em;
 justify-content: center;
 
 }
-.client-words{
+/* .client-words{
   
   
 
   
-}
+} */
 /* making an image circle */
 .client-image{
 border-radius: 100%;
