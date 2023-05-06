@@ -11,6 +11,9 @@ font-family: 'Fraunces', serif; */
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 p{
   font-family:Georgia, 'Times New Roman', Times, serif ;
 }
@@ -68,7 +71,7 @@ nav ul {
   padding: 0;
 
 }
-nav li{
+li{
   list-style: none;
   margin: auto 20px;
   justify-content: space-evenly;
@@ -98,13 +101,14 @@ img{
 
 
 .header{
-  background-image:  url(../) ;
+  background-image:  url(../images/desktop/image-header.jpg) ;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   padding: 0 20px;
+  width: 100vw;
   /* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
-  background-color: #000;
+  background-color: #b82f2f13;
 }
 .hero-overlay{
 text-align: center;
@@ -115,9 +119,9 @@ text-align: center;
  }
  /* FIRST SECTION */
  section{
-  width: 100%;
-  display: flex;
 
+  display: flex;
+  width: 100vw;
   
  }
  .image{
@@ -195,7 +199,7 @@ a.section-button-2::after{
 
   /* Third section */
   .third-section{
-    width: 100%;
+    width: 100vw;
     display: flex;
     
   }
@@ -227,7 +231,7 @@ a.section-button-2::after{
   }
   .third-section-overlay{
    
-   padding: 9em;
+   padding: 5.5em;
     margin-top: -300px;
     
   }
@@ -261,6 +265,8 @@ a.section-button-2::after{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
+    
   }
 
 .fourth-container{
@@ -268,25 +274,36 @@ a.section-button-2::after{
   width: 100%;
   position: relative;
   flex-wrap: wrap;
+  background-color: hsl(7, 33%, 95%);
 }
 
 .testimonial{
 display: flex;
-padding: 2em;
-
+padding: 5em ;
+margin: 0 2em;
 }
 .client-testimonial{
-  padding: 3em;
+padding: 0.5em;
   align-items: center;
 justify-content: center;
+text-align: center;
 
 }
-/* .client-words{
+.client-words{
+ padding: 10px; 
+ font: bold  1em/1.2 'Barlow', sans-serif;
+ opacity: 0.8;
   
-  
-
-  
-} */
+}
+.client-name{
+  margin-top: 30px;
+  font-family: 'Fraunces', serif;
+}
+.job-description{
+  margin-top: 10px;
+  font: bold 0.8em/1.2 'Barlow', sans-serif;
+  opacity: 0.5;
+}
 /* making an image circle */
 .client-image{
 border-radius: 100%;
@@ -298,3 +315,46 @@ margin-bottom: 50px;
   align-items: center;
   justify-content: center;
 }
+
+/* sixth section */
+.sixth-section{
+  width: 100vw;
+ 
+   
+}
+.image-gallery-container{
+  display: flex;
+}
+.image {
+width: 10%;
+height: auto;
+}
+/* FOOTER */
+footer{
+  background-color: hsl(168, 63%, 69%);
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-nav-link{
+
+  text-decoration: none;
+  cursor: pointer;
+  color:  hsl(168, 34%, 41%); 
+  font: bold 0.8em  'Barlow', sans-serif;
+ 
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  padding: 0;
+  
+}
+.social-icon{
+  margin: 60px 10px 10px  10px;
+  width: 15px;
+}
+/* i was unable to change the footer logo to green */
