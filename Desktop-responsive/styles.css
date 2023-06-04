@@ -2,159 +2,159 @@
 /* fonts */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&display=swap');
-  /* font-family: 'Barlow', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&display=swap');
+/* font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
 /* reset */
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 body{
-  overflow-x: hidden;
+overflow-x: hidden;
 }
 p{
-  font-family:Georgia, 'Times New Roman', Times, serif ;
+font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 /* h2{
-  font-family: 'Fraunces', serif;
+font-family: 'Fraunces', serif;
 } */
 /* styling the nav  and logo so they can be in line with each other */
 .nav-logo{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
 }
 /* NAVIGATION STYLES */
 nav a{
 
-  gap: 2rem;
-  text-decoration: none;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: 'Fraunces', serif;
-  font-size: 18px;  
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-  
+gap: 2rem;
+text-decoration: none;
+cursor: pointer;
+color: #ffffff;
+font-family: 'Fraunces', serif;
+font-size: 18px;  
+background-color: transparent;
+transition: background-color 0.3s ease;
+
 }
 nav a:hover, nav a:active
 {
-  background-color: #fff;
-  color: #000;
-  padding: 7px;
-  border-radius: 20px;
-  border-top: none;
-  border-bottom:none ;
-  border-left: 1px;
-  border-right: 1px;
-  font-weight: 900;
-  text-transform: uppercase;
+background-color: #fff;
+color: #000;
+padding: 7px;
+border-radius: 20px;
+border-top: none;
+border-bottom:none ;
+border-left: 1px;
+border-right: 1px;
+font-weight: 900;
+text-transform: uppercase;
 }
 nav a:active{
-  background-color: #fff;
-  color: #000;
-  padding: 7px;
-  border-radius: 20px;
-  border-top: none;
-  border-bottom:none ;
-  border-left: 1px;
-  border-right: 1px;
-  text-transform: uppercase;
+background-color: #fff;
+color: #000;
+padding: 7px;
+border-radius: 20px;
+border-top: none;
+border-bottom:none ;
+border-left: 1px;
+border-right: 1px;
+text-transform: uppercase;
 }
 nav ul {
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
-  margin: 0;
-  padding: 0;
+display: flex;
+justify-content: flex-end;
+align-content: flex-end;
+margin: 0;
+padding: 0;
 
 }
 li{
-  list-style: none;
-  margin: auto 20px;
-  justify-content: space-evenly;
+list-style: none;
+margin: auto 20px;
+justify-content: space-evenly;
 
 }
 
 /* hamburger menu */
 .hamburger{
-  visibility: hidden;
+visibility: hidden;
 }
-  /* Background image and header text */
+/* Background image and header text */
 h1.hero-heading{
-  margin-top: 80px;
-  font-size: 4rem;
-  font-family: 'Fraunces', serif;
-  text-transform: uppercase;
-  color: #ffffff;
+margin-top: 80px;
+font-size: 4rem;
+font-family: 'Fraunces', serif;
+text-transform: uppercase;
+color: #ffffff;
 
 }
 .arrow{
-  margin-top: 30px;
+margin-top: 30px;
 }
 img{
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 
 
 .header{
-  background-image:  url(../images/desktop/image-header.jpg) ;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  padding: 0 20px;
-  width: 100vw;
-  /* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
-  background-color: #b82f2f13;
+background-image: url(../images/desktop/image-header.jpg) ;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+padding: 0 20px;
+width: 100vw;
+/* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
+background-color: #000000;
 }
 .hero-overlay{
 text-align: center;
 }
 .container{
-  position: relative;
-  flex-wrap: wrap;
- }
- /* FIRST SECTION */
- section{
+position: relative;
+flex-wrap: wrap;
+}
+/* FIRST SECTION */
+section{
 
-  display: flex;
-  width: 100vw;
-  
- }
- .image{
-  flex-basis: 50%;
-  
- }
- .text{
-  flex-basis: 50%;
-  padding: 7em;
-  word-wrap: break-word;
- }
+display: flex;
+width: 100vw;
+
+}
+.image{
+flex-basis: 50%;
+
+}
+.text{
+flex-basis: 50%;
+padding: 7em;
+word-wrap: break-word;
+}
 
 .title{
 
-  font:900 3em/1.2 'Fraunces', serif;
+font:900 3em/1.2 'Fraunces', serif;
 
-  margin-bottom: 20px;
-  
+margin-bottom: 20px;
+
 }
 .description{
-  
-  font: bold  0.8em/1.2 'Barlow', sans-serif;
- color: hsl(210, 4%, 67%);
- 
- margin-bottom: 20px;
+
+font: bold  0.8em/1.2 'Barlow', sans-serif;
+color: hsl(210, 4%, 67%);
+
+margin-bottom: 20px;
 }
 
 a.section-button{
-  text-decoration: none;
-  position: relative;
-  font: 900 0.7em 'Barlow', sans-serif;
-  color: #000;
-  text-transform: uppercase;
+text-decoration: none;
+position: relative;
+font: 900 0.7em 'Barlow', sans-serif;
+color: #000;
+text-transform: uppercase;
 }
 /* ACHIEVING THE COLORED UNDERLINE */
 a.section-button::after{
@@ -174,107 +174,107 @@ transition: opacity 0.3s ease-in-out;
 
 
 a.section-button-2{
-  text-decoration: none;
-  position: relative;
-  font: 900 0.7em 'Barlow', sans-serif;
-  color: #000;
-  text-transform: uppercase;
+text-decoration: none;
+position: relative;
+font: 900 0.7em 'Barlow', sans-serif;
+color: #000;
+text-transform: uppercase;
 }
 
 a.section-button-2::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 5px;
-  border-radius: 50%;
-  background-color: hsl(7, 99%, 70%, 0.3);
+content: "";
+position: absolute;
+left: 0;
+bottom: -2px;
+width: 100%;
+height: 5px;
+border-radius: 50%;
+background-color: hsl(7, 99%, 70%, 0.3);
 /* opacity: 0; */
-  transition: opacity 0.3s ease-in-out;
-  }
-  /* a.section-button-2:hover::after{
-  opacity: 1;
-  } */
+transition: opacity 0.3s ease-in-out;
+}
+/* a.section-button-2:hover::after{
+opacity: 1;
+} */
 
-  /* Third section */
-  .third-section{
-    width: 100vw;
-    display: flex;
-    
-  }
-  .third-image{
-    flex-basis: 50%;
-   
+/* Third section */
+.third-section{
+  width: 100vw;
+  display: flex;
+  
+}
+.third-image{
+  flex-basis: 50%;
  
-    
-  }
-  .third-title{
-    font:900 3em 'Fraunces', serif;
-    margin-bottom: 20px;
-   
-     color: hsl(167, 40%, 24%);
-    /* center a text in a div horizontally */
-    display: flex;
-    justify-content: center;
- 
-  }
-  .third-description{
-    font: bold  0.83em/1.2 'Barlow', sans-serif;
-    opacity: 0.8;
-    word-wrap: break-word;
-    display: flex;
-    justify-content: center;
-    color: hsl(167, 40%, 24%);
-    
 
-  }
-  .third-section-overlay{
-   
-   padding: 5.5em;
-    margin-top: -300px;
-    
-  }
-  .third-title2{
-    font:900 3em 'Fraunces', serif;
-    margin-bottom: 20px;
-   
-    display: flex;
-    justify-content: center;
+  
+}
+.third-title{
+  font:900 3em 'Fraunces', serif;
+  margin-bottom: 20px;
  
-    color: hsl(198, 62%, 26%);
-  }
-  .third-description2{
-    color: hsl(198, 62%, 26%);
-    font: bold  0.83em/1.2 'Barlow', sans-serif;
-    opacity: 0.8;
-    word-wrap: break-word;
-    display: flex;
-    justify-content: center;
-  }
-  /* fourth section*/
-  .fourth-section{
-    width: 100vw;
-    
-  }
-  .testimonial-header{
-    font-family: 'Fraunces', serif;
-    color: hsl(210, 4%, 67%);
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    
-  }
+   color: hsl(167, 40%, 24%);
+  /* center a text in a div horizontally */
+  display: flex;
+  justify-content: center;
+
+}
+.third-description{
+  font: bold  0.83em/1.2 'Barlow', sans-serif;
+  opacity: 0.8;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  color: hsl(167, 40%, 24%);
+  
+
+}
+.third-section-overlay{
+ 
+ padding: 5.5em;
+  margin-top: -300px;
+  
+}
+.third-title2{
+  font:900 3em 'Fraunces', serif;
+  margin-bottom: 20px;
+ 
+  display: flex;
+  justify-content: center;
+
+  color: hsl(198, 62%, 26%);
+}
+.third-description2{
+  color: hsl(198, 62%, 26%);
+  font: bold  0.83em/1.2 'Barlow', sans-serif;
+  opacity: 0.8;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+}
+/* fourth section*/
+.fourth-section{
+  width: 100vw;
+  
+}
+.testimonial-header{
+  font-family: 'Fraunces', serif;
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  
+}
 
 .fourth-container{
- 
-  width: 100%;
-  position: relative;
-  flex-wrap: wrap;
-  background-color: hsl(7, 33%, 95%);
+
+width: 100%;
+position: relative;
+flex-wrap: wrap;
+background-color: hsl(7, 33%, 95%);
 }
 
 .testimonial{
@@ -284,25 +284,25 @@ margin: 0 2em;
 }
 .client-testimonial{
 padding: 0.5em;
-  align-items: center;
+align-items: center;
 justify-content: center;
 text-align: center;
 
 }
 .client-words{
- padding: 10px; 
- font: bold  1em/1.2 'Barlow', sans-serif;
- opacity: 0.8;
-  
+padding: 10px; 
+font: bold  1em/1.2 'Barlow', sans-serif;
+opacity: 0.8;
+
 }
 .client-name{
-  margin-top: 30px;
-  font-family: 'Fraunces', serif;
+margin-top: 30px;
+font-family: 'Fraunces', serif;
 }
 .job-description{
-  margin-top: 10px;
-  font: bold 0.8em/1.2 'Barlow', sans-serif;
-  opacity: 0.5;
+margin-top: 10px;
+font: bold 0.8em/1.2 'Barlow', sans-serif;
+opacity: 0.5;
 }
 /* making an image circle */
 .client-image{
@@ -311,19 +311,19 @@ width: 60px;
 margin-bottom: 50px;
 }
 .image-div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 /* sixth section */
 .sixth-section{
-  width: 100vw;
+width: 100vw;
+
  
-   
 }
 .image-gallery-container{
-  display: flex;
+display: flex;
 }
 .image {
 width: 10%;
@@ -331,30 +331,30 @@ height: auto;
 }
 /* FOOTER */
 footer{
-  background-color: hsl(168, 63%, 69%);
-  padding: 3em;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+background-color: hsl(168, 63%, 69%);
+padding: 3em;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 .footer-nav-link{
 
-  text-decoration: none;
-  cursor: pointer;
-  color:  hsl(168, 34%, 41%); 
-  font: bold 0.8em  'Barlow', sans-serif;
- 
+text-decoration: none;
+cursor: pointer;
+color:  hsl(168, 34%, 41%); 
+font: bold 0.8em  'Barlow', sans-serif;
+
 }
 .footer-nav {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 20px;
-  padding: 0;
-  
+display: flex;
+justify-content: center;
+align-content: center;
+margin-top: 20px;
+padding: 0;
+
 }
 .social-icon{
-  margin: 60px 10px 10px  10px;
-  width: 15px;
+margin: 60px 10px 10px  10px;
+width: 15px;
 }
 /* i was unable to change the footer logo to green */

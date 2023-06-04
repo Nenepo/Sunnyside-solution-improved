@@ -99,13 +99,17 @@ height: auto;
 
 
 .header{
-background-image:  url(../Sunnyside/images/desktop/image-header.jpg) ;
-background-size: cover;
-background-position: center;
-min-height: 100vh;
-padding: 0 20px;
-
+  background-image:  url(../images/mobile/image-header.jpg) ;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 0 20px;
+  width: 100vw;
+  /* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
+  background-color: #b82f2f13;
 }
+
+
 .hero-overlay{
 text-align: center;
 }
