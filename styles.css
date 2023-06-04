@@ -108,7 +108,7 @@ min-height: 100vh;
 padding: 0 20px;
 width: 100vw;
 /* had to make my bckground transparent because for some reason it was white and the content which are mostly white are mot showing */
-background-color: #000000;
+background-color: #2b6cb61f;
 }
 .hero-overlay{
 text-align: center;
