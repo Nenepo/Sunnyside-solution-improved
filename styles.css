@@ -101,7 +101,7 @@ height: auto;
 
 
 .header{
-background-image: url(../images/desktop/image-header.jpg) ;
+  background-image: url(../Sunnyside-solution-improved/images/desktop/image-header.jpg) ;
 background-size: cover;
 background-position: center;
 min-height: 100vh;
